@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">My Survey</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform :)</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label"> Please Enter Your Name: </label>
+        <input id="name" type="text" required placeholder="Moosa Alam"> 
+<hr>
+        <label for="email" id="email-label"> Please Enter Your Email: </label>
+        <input id="email" type="email" required placeholder="123@gmail.com"">
+<hr>
+        <label for="number" id="number-label"> Please Enter Your Age: </label>
+        <input id="number" min="5" max="100"type="number" required placeholder="12">
+<hr>
+        <label for="dropdown">Cake or Bob:</label>
+        <select id="dropdown">
+          <option>Cake</option>
+          <option>Bob</option>
+        </select>
+<hr>
+        <label for="dropdown">Bob or Miller:</label>
+        <input type="radio" name="radio-group" id="bob" value="0">
+        <label for="bob">Bob</label>
+
+        <input type="radio" name="radio-group" id="miller" value="1">
+        <label for="miller">Miller</label>
+<hr>
+        <label>Pizza or Burgers: </label>
+        <input type="checkbox" value="0" id="pizza">
+        <label for="pizza">Pizza</label> 
+
+        <input type="checkbox" value="0" id="burgers">
+        <label for="burgers">Burgers</label>
+<hr>
+        <textarea placeholder="Please enter any additional information you would like to add:"></textarea>
+<hr>
+        <input id="submit"type="submit">
+    </main>
+  </body>
+</html>
